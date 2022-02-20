@@ -78,7 +78,7 @@
         </div>
         
         <div class="col-md-2">
-          <input type="text" class="form-control" placeholder="Dia" id="dia" />
+          <input type="number" class="form-control" placeholder="Dia" id="dia" />
         </div>
 
         <div class="col-md-6">
@@ -99,7 +99,7 @@
         </div>
 
         <div class="col-md-2">
-          <input type="text" class="form-control" placeholder="Valor" id="valor" />
+          <input type="number" class="form-control" placeholder="Valor" id="valor" />
         </div>
 
         <div class="col-md-2 d-flex justify-content-end">
@@ -114,8 +114,11 @@
     <div class="modal fade" id="modalRegistraDespesa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div  id="modal_titulo_div">
-            <h5 class="modal-title modal-header" id="modal_titulo"></h5>  
+          <div id="modal_titulo_div">
+            <h5 class="modal-title" id="modal_titulo"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div class="modal-body" id="modal_conteudo"></div>
           <div class="modal-footer">
